@@ -7,7 +7,7 @@ int main(){
  cout<<"Ingrese nota del examen:"; cin>>nota; 
   
  if (nota>=90 && nota<=100);{  
- cout<<"Excelente calificacion"; cin>>nota<<endl; 
+ cout<<"Excelente calificacion"<<nota<<endl; 
  }
 
  else {
