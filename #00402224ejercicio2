@@ -1,0 +1,37 @@
+#include <iostream> //Solicita la nota de un examen y da una calificacion : excelente (90-100), buena (75-89)
+using namespace std;
+int main(){
+//La primer parte esta bien de mi codigo pero ya lo demas como en el anterior se me olvido como hacerlo se que voy bien encaminado por elejercio 
+// de los kWh en el repositorio el cual es exactamente lo mismo que tenia que poner para baja = 100 kwh media 100=> && <=200
+ int nota= 0;
+ cout<<"Ingrese nota del examen:"; cin>>nota; 
+  
+ if (nota>=90 && nota<=100);{  
+ cout<<"Excelente calificacion"; cin>>nota<<endl; 
+ }
+
+ else {
+  if (nota>=75 && nota<=89);
+ }
+  cout<<"Buena calificacion"; cin>>nota<<endl;
+ 
+  else if (nota>=60 && nota<=74);{
+  cout<<"Calificacion Regular"; cin>>nota<<endl;  
+  }
+
+  
+
+  
+
+
+
+
+ }
+
+
+
+
+
+
+    return 0;
+}
